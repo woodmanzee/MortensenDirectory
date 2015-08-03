@@ -1,0 +1,61 @@
+var FAMILIES = [
+  { "surname": "Mortensen",
+    "head": "Boyd and Lucille",
+    "hasChildren": true,
+    "children": [
+      { "surname": "Hart",
+        "head": "Ned and Charmaine",
+        "hasChildren": true,
+        "children": [
+          { "surname": "Peterson",
+            "head": "Mike and Joanna",
+            "hasChildren": true,
+            "children": [
+          
+            ]
+          },
+          {
+            "surname": "Hart",
+            "head": "Jonathan",
+            "hasChildren": false,
+          }
+        ]
+      },
+      { "surname": "Cannon",
+        "head": "Wilford and Melanie",
+        "hasChildren": true,
+        "children": [
+
+        ]
+      },
+      { "surname": "Woodmansee",
+        "head": "Ralph and Paula",
+        "hasChildren": true,
+        "children": [
+
+        ]
+      },
+      { "surname": "Mortensen",
+        "head": "Rob and Liz",
+        "hasChildren": true,
+        "children": [
+
+        ]
+      },
+      { "surname": "Mortensen",
+        "head": "Neal and Annabelle",
+        "hasChildren": true,
+        "children": [
+
+        ]
+      },
+      { "surname": "Mortensen",
+        "head": "Mark and Krissy",
+        "hasChildren": true,
+        "children": [
+
+        ]
+      }
+    ]
+  }
+];

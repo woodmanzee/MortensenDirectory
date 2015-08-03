@@ -3,9 +3,10 @@ var Directory = React.createClass({
         return (
           <div>
             <div style={directoryWrapper}>
-                <FamilyTable family={this.props.families} />
+              <img src={'../images/M.png'} alt="boohoo" style={mainLogo} className="img-responsive"/>
+              <FamilyTable family={this.props.families} />
             </div>
-            </div>
+          </div>
         );
     }
 });
@@ -18,7 +19,11 @@ var FamilyTable = React.createClass({
         });
         return (
           <div>
-            <div style={familySurname} >{this.props.family[0].surname}</div>
+            <div style={header}>
+              <img src={'../images/Gramps.png'} alt="boohoo" style={profileLeft} className="img-responsive"/>
+              <div style={familySurname} >{this.props.family[0].surname}</div>
+              <img src={'../images/Granny.png'} alt="boohoo" style={profileRight} className="img-responsive"/>
+            </div>
             {rows}
           </div>
         );
@@ -70,7 +75,7 @@ var FAMILIES = [
         ]
       },
       { "surname": "Mortensen",
-        "head": "Neil and Annabelle",
+        "head": "Neal and Annabelle",
         "hasChildren": true,
         "children": [
 
@@ -86,6 +91,14 @@ var FAMILIES = [
     ]
   }
 ];
+
+var Logo = React.createClass({
+    render: function() {
+        return (
+          <div><img src={'../images/M.png'} alt="boohoo" style={mainLogo} className="img-responsive"/></div>
+        );
+    }
+});
 
 React.render(
   <Directory families={FAMILIES} />,

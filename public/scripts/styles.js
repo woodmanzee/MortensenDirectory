@@ -1,14 +1,15 @@
 var familySurname = {
-  marginBottom: '100px',
-  fontSize: '36px'
+  marginTop: '20px',
+  fontSize: '50px',
+  display: 'inline'
 };
 
 var familyHeads = {
-  fontSize: '18px'
+  fontSize: '14px'
 };
 
 var familyLastName = {
-  fontSize: '24px',
+  fontSize: '36px',
   marginBottom: '20px'
 };
 
@@ -17,5 +18,32 @@ var directoryWrapper = {
   color: '#FAFAFA',
   lineHeight: '30px',
   textAlign: 'center',
-  fontWeight: 'bold'
+};
+
+var mainLogo = {
+  width: '150px',
+  height: '150px'
+};
+
+var profileLeft = {
+  marginRight: '50px',
+  marginBottom: '30px',
+  display: 'inline',
+  width: '75px',
+  height: '75px',
+  verticalAlign: 'middle'
+};
+
+var profileRight = {
+  marginLeft: '50px',
+  marginBottom: '30px',
+  display: 'inline',
+  width: '75px',
+  height: '75px',
+  verticalAlign: 'middle'
+};
+
+var header = {
+  marginBottom: '20px',
+  marginTop: '10px'
 };
