@@ -1,7 +1,6 @@
 var familySurname = {
-  marginTop: '20px',
   fontSize: '50px',
-  display: 'inline'
+  marginBottom: '29px'
 };
 
 var familyHeads = {
@@ -25,25 +24,61 @@ var mainLogo = {
   height: '150px'
 };
 
-var profileLeft = {
-  marginRight: '50px',
-  marginBottom: '30px',
-  display: 'inline',
-  width: '75px',
-  height: '75px',
-  verticalAlign: 'middle'
+var headLeftBlock = {
+  display: 'inline-block',
+  verticalAlign: 'top',
+  width: '30%',
+  marginRight: '30px'
 };
 
-var profileRight = {
-  marginLeft: '50px',
-  marginBottom: '30px',
-  display: 'inline',
+var headRightBlock = {
+  display: 'inline-block',
+  verticalAlign: 'top',
+  width: '30%',
+  marginLeft: '30px'
+};
+
+var familyBlock = {
+  display: 'inline-block',
+  verticalAlign: 'top',
+  marginTop: '25px'
+};
+
+var headLeftPicture = {
+  display: 'block',
   width: '75px',
   height: '75px',
-  verticalAlign: 'middle'
+  marginLeft: '83%'
+};
+
+var headRightPicture = {
+  display: 'block',
+  width: '75px',
+  height: '75px'
 };
 
 var header = {
-  marginBottom: '20px',
+  marginTop: '10px',
+  marginBottom: '50px'
+};
+
+var headLeftInfo = {
+  display: 'block',
+  textAlign: 'right',
   marginTop: '10px'
 };
+
+var headRightInfo = {
+  display: 'block',
+  textAlign: 'left',
+  marginTop: '10px'
+};
+
+var familyInfo = {
+  display: 'block'
+};
+
+var lightFont = {
+  fontFamily: 'Open Sans, sans-serif',
+  fontWeight: '300'
+}
