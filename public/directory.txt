@@ -2,6 +2,8 @@ var FAMILIES = [
   { "surname": "Mortensen",
     "head": "Boyd and Lucille",
     "hasChildren": true,
+    "headLeft": "../images/Gramps.png",
+    "headRight": "../images/Granny.png",
     "children": [
       { "surname": "Hart",
         "head": "Ned and Charmaine",
@@ -9,15 +11,12 @@ var FAMILIES = [
         "children": [
           { "surname": "Peterson",
             "head": "Mike and Joanna",
-            "hasChildren": true,
-            "children": [
-          
-            ]
+            "hasChildren": true
           },
           {
             "surname": "Hart",
             "head": "Jonathan",
-            "hasChildren": false,
+            "hasChildren": false
           }
         ]
       },
@@ -31,8 +30,51 @@ var FAMILIES = [
       { "surname": "Woodmansee",
         "head": "Ralph and Paula",
         "hasChildren": true,
+        "headLeft": "../images/Ralph.png",
+        "headRight": "../images/Paula.png",
         "children": [
-
+          {
+            "surname": "Woodmansee",
+            "head": "Cam and Lauren",
+            "hasChildren": false,
+            "headLeft": "../images/Ralph.png",
+            "headRight": "../images/Paula.png"
+          },
+          {
+            "surname": "Woodmansee",
+            "head": "Zack and Hannah",
+            "hasChildren": false,
+            "headLeft": "../images/Ralph.png",
+            "headRight": "../images/Paula.png"
+          },
+          {
+            "surname": "Woodmansee",
+            "head": "Riley and Sabri",
+            "hasChildren": false,
+            "headLeft": "../images/Ralph.png",
+            "headRight": "../images/Paula.png"
+          },
+          {
+            "surname": "Woodmansee",
+            "head": "Drew",
+            "hasChildren": false,
+            "headLeft": "../images/Ralph.png",
+            "headRight": "../images/Paula.png"
+          },
+          {
+            "surname": "Woodmansee",
+            "head": "Darcy",
+            "hasChildren": false,
+            "headLeft": "../images/Ralph.png",
+            "headRight": "../images/Paula.png"
+          },
+          {
+            "surname": "Woodmansee",
+            "head": "Blake",
+            "hasChildren": false,
+            "headLeft": "../images/Ralph.png",
+            "headRight": "../images/Paula.png"
+          }
         ]
       },
       { "surname": "Mortensen",
